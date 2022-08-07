@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 50px;
+}
+
+div a {
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+.navs {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.navs1 {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.arkaplan {
+    background: url(Resimler/blog.png) no-repeat center center;
+    background-size: cover;
+    height: 795px;
+}
+
+.blogh2 {
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+
+.blogp {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.card-kutu {
+    width: 300px;
+    height: 300px;
+}
+
+.card1 {
+    height: 80%;
+    width: 70%;
+    background: url(Resimler/kutuphane.png) no-repeat center center;
+    margin: 20px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card1 h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.card2 {
+    height: 80%;
+    width: 70%;
+    background: url(Resimler/film.png) no-repeat center center;
+    margin: 20px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card2 h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.card3 {
+    height: 80%;
+    width: 70%;
+    background: url(Resimler/favorite.png) no-repeat center center;
+    margin: 20px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card3 h2 {
+    color: black;
+    font-size: 24px;
+}
+
+.başlıklar {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.proejeler {
+    border: 1px solid red;
+    height: 400px;
+}
+
+.hakkımdaimg {
+    background: url(Resimler/card1.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.iletisimimg {
+    background: url(Resimler/sosyal.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.metin {
+    font-size: 20px;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a img {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.wp {
+    margin-left: 20px;
+}
+
+.face {
+    margin-left: -20px;
+}
+
+#button {
+    padding: 15px 30px;
+    background-color: rgb(196, 59, 59);
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
+#button:hover {
+    background-color: whitesmoke;
+    color: rgb(196, 59, 59);
+    font-weight: 700;
+}
