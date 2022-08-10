@@ -20,32 +20,6 @@ div a {
     text-align: center;
 }
 
-.navs1 {
-    font-size: 18px;
-    letter-spacing: 4px;
-}
-
-.arkaplan {
-    background: url(Resimler/blog.png) no-repeat center center;
-    background-size: cover;
-    height: 795px;
-}
-
-.blogh2 {
-    font-size: 60px;
-    letter-spacing: 7px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-}
-
-.blogp {
-    font-weight: 400;
-    font-size: 20px;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    letter-spacing: 4px;
-}
-
 .uniheader {
     text-align: center;
 }
