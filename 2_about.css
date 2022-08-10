@@ -52,7 +52,6 @@ div a {
 
 .uniimg {
     text-align: center;
-    border: 3px solid #007bff;
     border-radius: 10px;
 }
 
@@ -60,10 +59,75 @@ div a {
     text-align: center;
 }
 
-.butoncolor {
-    padding: 15px 30px;
-    color: whitesmoke;
-    border-radius: 5px;
-    border: none;
-    background-color: #007bff;
+
+/************    CARD ANIMASYONU ************/
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.kutu1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.kutu1::before {
+    border-radius: 15px;
+    content: "   2021-2022 Yılı Öğretim Döneminde Mersin Üniversitesi Bilgisayar Programcılığı Okudum. Yüzde %10 Dilime Girerek başarı elde ettim. Okul Sürecinde Amacım Dersi Geçmek Olamdı. Her zaman Konuyu Anlamak ve ilerleme Katetmek oldu. Başarı Kendiliğinden Geldi...";
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgba(79, 86, 86, 0.5);
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: scale(0);
+    transform-origin: 0 50%;
+    transition: all 0.5s ease;
+    /* transform-origin: 50% 0; */
+}
+
+.kutu1:hover::before {
+    transform: scale(1);
+}
+
+.kutu2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.kutu2::before {
+    border-radius: 15px;
+    content: "Bilgisayar Programcılığının 2. Sınıfını Çukurova Üniveristesine Yatay Geçiş Yaparak 2022-2023 Yılı Dönemini Burda Okudum...";
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgba(79, 86, 86, 0.5);
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: scale(0);
+    transform-origin: right;
+    transition: all 0.5s ease;
+    /* transform-origin: 50% 0; */
+}
+
+.kutu2:hover::before {
+    transform: scale(1);
 }
